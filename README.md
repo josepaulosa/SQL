@@ -1,6 +1,6 @@
 # SQL
 - - - 
-> The jupyter notebook intends to **show how to use** some of the most important **commands** as well as some common **functions** to write some relevant/interesting **SQL queries** for:
+> The jupyter notebook intends to show **how to write** some relevant/interesting **SQL queries** and **statements** for:
 > -  **Retrieving data from a database**.
 > -  **Performing actions on a database**.
 - - - 
