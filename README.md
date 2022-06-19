@@ -1,13 +1,13 @@
 # SQL
 - - - 
-> The jupyter notebook intends to show **how to write** some important **SQL queries** and **statements** - for **retrieving data from a database** and **Performing actions on a database** - such as: 
+> The jupyter notebook intends to show **how to write** some important **SQL queries** and **statements** - for **retrieving data from a database** and **performing actions on a database** - such as: 
 > - Creating a primary key
 > - Selecting a given number of rows to display from a given to table 
 > - Count the number of records of a table
 > - Count the distinct 'accident indexes' from each table
 > - Select the columns/fields of our interest
 > - Delete records in both tables
-> - How to update an existing record
+> - Update an existing record
 > - Discover the correlation between the day of the week and the number of accidents and visualize data using Matplotlib
 > - Find out how severe the accidents were and visualize data using Matplotlib
 > - Retrive the total number of accidents by vehicle type and sort in descending order of number of accidents
