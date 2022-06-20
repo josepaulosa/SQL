@@ -20,6 +20,6 @@
 > 
 > &rarr; **Note**: I used ALIASES several times to improve quickness, readability and meaningfulness
 - - - 
-- The RDBMS used was: **MySQL**
+- The RDBMS used was: **MariaDB**
 - - - - 
 - You can find the 2 **datasets** regarding Road Safety Data 2020 in UK with which I created a **database** with **2 tables** [here](https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data)
