@@ -15,7 +15,7 @@
 > - Compute the average severity of accidents involving cars
 > - Retrieve the accident severity by age band of the driver and sort in descending order by the number of accidents. For just a specific age band of the driver, for instance, 21-25 years old
 > - Create a new table, with the fields/columns of our interest, to combine the rows of both tables based on the same 'accident_index' using the INNER JOIN clause
-> - Compute the number of accidents by age band of driver and day of the week using the PAARTITION BY clause
+> - Compute the number of accidents by age band of driver and day of the week using the PARTITION BY clause
 > - Insert multiple rows into the new table
 > 
 > &rarr; **Note**: I used ALIASES several times to improve quickness, readability and meaningfulness
