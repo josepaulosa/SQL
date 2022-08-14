@@ -17,7 +17,7 @@
 > - Create a new table, with the fields/columns of our interest, to combine the rows of both tables based on the same 'accident_index' using the INNER JOIN clause
 > - Compute the number of accidents by age band of driver and day of the week using the PARTITION BY clause
 > - Insert multiple rows into the new table
-
+- - - 
 > - **Note**: I used Aliases several times to improve quickness, readability and meaningfulness
 - - - 
 - The RDBMS used was: **MariaDB**
