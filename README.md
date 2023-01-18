@@ -7,7 +7,7 @@
 > - Find the proportion of accidents that took place in urban and rural areas
 > - Number of accidents by level of severity and data visualization using Matplotlib
 > - Retrive the total number of accidents by vehicle type and sort in descending order of number of accidents
-> - Compute the number of accidents by accident severity and vehicle type; create a column named 'assessement' (use of **CASE** and **JOIN**), in case of the of number of accidents was less than 10 output 'not bad'; if it was equal or greater than 10 and less then 100 output 'could be worse'; lastly if it was greater then 100 output 'terrible'
+> - Compute the number of accidents by accident severity and vehicle type; create a column named 'assessement', in case of the of number of accidents was less than 10 output 'not bad'; if it was equal or greater than 10 and less then 100 output 'could be worse'; lastly if it was greater then 100 output 'terrible' (use of **CASE** and **JOIN**)
 > - Find the percentage of accidents by level of severity
 > - At what time (hour) most accidents happened by day of the week. Output the days of the week, the hour and the number of accidents (use of the **window function RANK**)
 > - Find the days of the week with more casualties than the average across all days of the week (use of the **WITH** and **JOIN** clauses)
