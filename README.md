@@ -1,24 +1,20 @@
 # SQL
 - - - 
-> The jupyter notebook intends to show **how to write** some important **SQL queries** and **statements** - for **retrieving data from a database** and **performing actions on a database** - such as: 
-> - Creating a primary key
-> - Selecting a given number of rows to display from a given to table 
-> - Count the number of records of a table
-> - Count the distinct 'accident indexes' from each table
-> - Select the columns/fields of our interest
-> - Delete records in both tables
-> - Update an existing record
-> - Discover the correlation between the day of the week and the number of accidents and visualize data using Matplotlib
-> - Find out how severe the accidents were and visualize data using Matplotlib
+> The jupyter notebook intends to show **how to write** some important **SQL queries** and **statements** for **retrieving data from a database** and **performing actions on a database** - such as: 
+> - Creating a **primary key**
+> - **Delete records**, in both tables, that only create noise like the ones regarding missing data and the ones that are out of range
+> - Discover the correlation between the day of the week and the number of accidents and visualize data using **Matplotlib**
+> - Find the proportion of accidents that took place in urban and rural areas
+> - Number of accidents by level of severity and data visualization using Matplotlib
 > - Retrive the total number of accidents by vehicle type and sort in descending order of number of accidents
-> - Find out what was the accident severity by vehicle type and for just a specific vehicle type, for instance, cars, and also visualize data regarding accident severity where cars were involved using Matplotlib
-> - Compute the average severity of accidents involving cars
-> - Retrieve the accident severity by age band of the driver and sort in descending order by the number of accidents. For just a specific age band of the driver, for instance, 21-25 years old
-> - Create a new table, with the fields/columns of our interest, to combine the rows of both tables based on the same 'accident_index' using the INNER JOIN clause
-> - Compute the number of accidents by age band of driver and day of the week using the PARTITION BY clause
-> - Insert multiple rows into the new table
+> - Compute the number of accidents by accident severity and vehicle type; create a column named 'assessement' (use of **CASE** statement), in case of the of number of accidents was less than 10 output 'not bad'; if it was equal or greater than 10 and less then 100 output 'could be worse'; lastly if it was greater then 100 output 'terrible'
+> - Find the percentage of accidents by level of severity
+> - At what time (hour) most accidents happened by day of the week. Output the days of the week, the hour and the number of accidents (use of the **window function RANK**)
+> - Find the days of the week with more casualties than the average across all days of the week (use of the **WITH** clause)
+> - **Insert multiple rows** into a table
+> - **Update existing records**
 - - - 
-- **Note**: I used Aliases several times mainly to improve readability 
+- **Note**: I used Aliases several times mainly to improve quickness and readability
 - - - 
 - The RDBMS used was: **MariaDB**
 - - - - 
