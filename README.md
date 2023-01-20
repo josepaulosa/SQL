@@ -2,7 +2,7 @@
 - - - 
 > The jupyter notebook intends to show **how to write** some important **SQL queries** and **statements** for **retrieving data from a database** and **performing actions on a database** - such as: 
 > - Creating a **primary key**
-> - Convert datatype VARCHAR to DATE
+> - **Convert datatype varchar to date**
 > - **Delete records**, in both tables, that only create noise like the ones regarding missing data and the ones that are out of range
 > - Discover the correlation between the day of the week and the number of accidents and visualize data using **Matplotlib**
 > - Find the proportion of accidents that took place in urban and rural areas
