@@ -2,6 +2,7 @@
 - - - 
 > The jupyter notebook intends to show **how to write** some important **SQL queries** and **statements** for **retrieving data from a database** and **performing actions on a database** - such as: 
 > - Creating a **primary key**
+> - Convert datatype VARCHAR to DATE
 > - **Delete records**, in both tables, that only create noise like the ones regarding missing data and the ones that are out of range
 > - Discover the correlation between the day of the week and the number of accidents and visualize data using **Matplotlib**
 > - Find the proportion of accidents that took place in urban and rural areas
@@ -11,8 +12,8 @@
 > - Find the percentage of accidents by level of severity
 > - At what time (hour) most accidents happened by day of the week. Output the days of the week, the hour and the number of accidents (use of the **window function RANK**)
 > - Find the days of the week with more casualties than the average across all days of the week (use of the **WITH** and **JOIN** clauses and the SUM and AVG **aggregate functions**)
-> - **Insert multiple rows** into a table
-> - **Update existing records**
+> - Calculate the quarter-over-quarter percentage change in casualties, rounded to the 2nd decimal point (use of the **window function LAG** and the SUM **aggregate function**)
+> - Identify the three days with most casualties by quarter. Output the quarter, the day and the number of casualties (use of the **window function RANK** and the SUM **aggregate function**)
 - - - 
 - **Note**: I used Aliases several times mainly to improve quickness and readability
 - - - 
